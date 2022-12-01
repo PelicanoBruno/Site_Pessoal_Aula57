@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    padding-top: 800px;
+    text-align: center;
+}
+#perfil{
+    border-radius: 50%;
+    padding-top:50px;
+}
+#oi{
+    position: absolute;
+    bottom: 0;
+    display: table;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgb(75, 255, 4) 0%, rgb(0, 255, 221) 100%);
+    z-index: 9;
+}
+#menu{
+    position: fixed;
+    top: 0px;
+    text-align: right;
+    z-index: 10;
+    list-style: none;
+    cursor: pointer;
+    background-color:white;
+    width: 100%;
+    margin-top: 0px;
+}
+.iten{
+    float: left;
+    padding-top:5px ;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    font-size: 25px;
+}
+#nome{
+    font-family: 'Dancing Script', cursive;
+}
+#p{
+    font-family: 'Source Serif Pro', serif;
+}
